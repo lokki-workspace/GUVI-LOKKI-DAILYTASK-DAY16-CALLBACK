@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(#0f0e0d, #311f0f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#countdown{
+    width: 1100px;
+    height: 500px;
+    border-radius: 50%;
+    background-image: linear-gradient(#0f0e0d, #880101);
+    border: 8px solid #f3b815;
+    color: #d39f12;
+    text-align: center;
+    line-height: 470px;
+    font-size: 5rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    text-shadow: 1px 1px 5px #e23030;
+    box-shadow: 0 0 18px #e23030,
+        0 0 10px #e23030 inset;
+}
+
+.count i{
+ padding: 130px;
+ font-size: 9rem;
+  text-align: center;
+  color: red;
+}
+
+.text{
+    padding: 20px;
+    color: rgb(173, 173, 173);
+    font-size: 40px;
+}
